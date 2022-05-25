@@ -21,13 +21,10 @@
   <ItemGroup>
     <ClInclude Include="common\ALU.h" />
     <ClInclude Include="common\big-endian to little-endian.h" />
-    <ClInclude Include="common\bitwise, shift op.h" />
     <ClInclude Include="common\defines.h" />
     <ClInclude Include="common\disassemble.h" />
     <ClInclude Include="common\disassembler.h" />
-    <ClInclude Include="common\instruction fetch and decode.h" />
     <ClInclude Include="common\memory modeling.h" />
-    <ClInclude Include="common\test.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chan.cpp" />

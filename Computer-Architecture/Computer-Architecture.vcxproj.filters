@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common\test.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="common\disassemble.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="common\disassembler.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="common\instruction fetch and decode.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="common\memory modeling.h">
@@ -34,9 +28,6 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="common\big-endian to little-endian.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="common\bitwise, shift op.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="common\defines.h">

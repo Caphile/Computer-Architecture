@@ -16,7 +16,7 @@ unsigned int invertEndian(unsigned int data)
 }
 
 const int M_SIZE = 1024;
-unsigned char MEM[M_SIZE];
+unsigned char memory[M_SIZE];
 
 unsigned int memoryRead(unsigned int addr) {
 	unsigned int data;
@@ -31,7 +31,7 @@ unsigned int memoryRead(unsigned int addr) {
 	data |= (unsigned int)MEM[addr + 2] << 16;
 	data |= (unsigned int)MEM[addr + 3] << 24;
 	*/
-	data = *(unsigned int*)&MEM[addr];
+	data = *(unsigned int*)&memory[addr];
 	data = invertEndian(data);
 
 	return data;
@@ -48,7 +48,7 @@ void memoryWrite(unsigned int addr, unsigned int data) {
 	MEM[addr + 1] = (unsigned char)data; data >>= 8;
 	MEM[addr] = (unsigned char)data;
 	*/
-	*(unsigned int*)& MEM[addr] = invertEndian(data);
+	*(unsigned int*)& memory[addr] = invertEndian(data);
 	
 	return;
 }
