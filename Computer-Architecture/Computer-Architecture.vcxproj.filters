@@ -15,28 +15,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common\disassemble.h">
+    <ClInclude Include="common\disassemble.cpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="common\disassembler.h">
+    <ClInclude Include="common\disassembler.cpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="common\memory modeling.h">
+    <ClInclude Include="common\memory modeling.cpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="common\ALU.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="common\big-endian to little-endian.h">
+    <ClInclude Include="common\ALU.cpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="common\defines.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="common\invertEndian.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="disassemble.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="memory modeling.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="disassembler.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chan.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ALU.h">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="invertEndian.h">
+      <Filter>헤더 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

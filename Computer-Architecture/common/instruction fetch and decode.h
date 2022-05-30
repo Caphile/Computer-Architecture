@@ -2,18 +2,7 @@
 // ProgramReport3.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 
 #include "stdio.h"
-
-unsigned int invertEndian(unsigned int data)
-{
-	unsigned char c[4];
-
-	c[3] = (unsigned char)data; data = data >> 8;
-	c[2] = (unsigned char)data; data = data >> 8;
-	c[1] = (unsigned char)data; data = data >> 8;
-	c[0] = (unsigned char)data;
-
-	return *(unsigned int*)c;
-}
+#include "invertEndian.h"
 
 const int M_SIZE = 1024;
 unsigned char memory[M_SIZE];

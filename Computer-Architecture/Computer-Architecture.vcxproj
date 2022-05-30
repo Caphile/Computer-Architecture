@@ -19,15 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common\ALU.h" />
-    <ClInclude Include="common\big-endian to little-endian.h" />
+    <ClInclude Include="common\ALU.cpp" />
+    <ClInclude Include="common\invertEndian.cpp" />
     <ClInclude Include="common\defines.h" />
-    <ClInclude Include="common\disassemble.h" />
-    <ClInclude Include="common\disassembler.h" />
-    <ClInclude Include="common\memory modeling.h" />
+    <ClInclude Include="common\disassemble.cpp" />
+    <ClInclude Include="common\disassembler.cpp" />
+    <ClInclude Include="common\memory modeling.cpp" />
+    <ClInclude Include="disassemble.h" />
+    <ClInclude Include="disassembler.h" />
+    <ClInclude Include="memory modeling.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ALU.h" />
     <ClCompile Include="Chan.cpp" />
+    <ClCompile Include="invertEndian.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
