@@ -1,46 +1,10 @@
-﻿  Chan.cpp
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\ALU.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(159,5): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\ALU.h(103): message : 'main'의 이전 정의를 참조하십시오.
+﻿  ALU.h
+c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'ALU.h': No such file or directory
+  Chan.cpp
+C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\invertEndian.h(1,1): error C2144: 구문 오류: unsigned int'은(는) ';' 다음에 와야 합니다.
 C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(6,14): error C2084: 'unsigned int invertEndian(unsigned int)' 함수에 이미 본문이 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(21): message : 'invertEndian'의 이전 정의를 참조하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(18,11): error C2374: 'M_SIZE': 재정의. 여러 번 초기화했습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(33): message : 'M_SIZE' 선언을 참조하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(19,15): error C2086: 'unsigned char memory[1024]': 재정의
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(34): message : 'memory' 선언을 참조하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(21,14): error C2084: 'unsigned int memoryRead(unsigned int)' 함수에 이미 본문이 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(36): message : 'memoryRead'의 이전 정의를 참조하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(35,9): error C2065: 'invertEndian': 선언되지 않은 식별자입니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(35,27): error C2568: '=': 함수 오버로드를 확인할 수 없습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(35,27): message : 'unsigned int invertEndian(unsigned int)'일 수 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(40,6): error C2084: 'void memoryWrite(unsigned int,unsigned int)' 함수에 이미 본문이 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(50): message : 'memoryWrite'의 이전 정의를 참조하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(51,35): error C2065: 'invertEndian': 선언되지 않은 식별자입니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(51,53): error C2568: '=': 함수 오버로드를 확인할 수 없습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(51,53): message : 'unsigned int invertEndian(unsigned int)'일 수 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(56,14): error C2371: 'IR': 재정의. 기본 형식이 다릅니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(19): message : 'IR' 선언을 참조하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(59,6): error C2084: 'void decodeRtype(unsigned int)' 함수에 이미 본문이 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(63): message : 'decodeRtype'의 이전 정의를 참조하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(103,6): error C2084: 'void instructionDecode(void)' 함수에 이미 본문이 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(110): message : 'instructionDecode'의 이전 정의를 참조하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(109,11): error C2088: '>>': union에 맞지 않습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(110,11): error C2088: '&': union에 맞지 않습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(119,4): error C2065: 'decodeRtype': 선언되지 않은 식별자입니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(175,11): error C2065: 'invertEndian': 선언되지 않은 식별자입니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(175,29): error C2568: '=': 함수 오버로드를 확인할 수 없습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(175,29): message : 'unsigned int invertEndian(unsigned int)'일 수 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(177,11): error C2065: 'invertEndian': 선언되지 않은 식별자입니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(177,29): error C2568: '=': 함수 오버로드를 확인할 수 없습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(177,29): message : 'unsigned int invertEndian(unsigned int)'일 수 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(184,10): error C2065: 'invertEndian': 선언되지 않은 식별자입니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(184,28): error C2568: '=': 함수 오버로드를 확인할 수 없습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(184,28): message : 'unsigned int invertEndian(unsigned int)'일 수 있습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(185,3): error C2065: 'memoryWrite': 선언되지 않은 식별자입니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(192,8): error C2065: 'memoryRead': 선언되지 않은 식별자입니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(194,3): error C2065: 'instructionDecode': 선언되지 않은 식별자입니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\memory modeling.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\memory modeling.h(17,11): error C2374: 'M_SIZE': 재정의. 여러 번 초기화했습니다.
-C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\disassembler.h(33): message : 'M_SIZE' 선언을 참조하십시오.
+C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\Chan.cpp(10,5): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
+C:\Users\caphi\Documents\repos\Caphile\Computer-Architecture\Computer-Architecture\common\instruction fetch and decode.h(140): message : 'main'의 이전 정의를 참조하십시오.
+  invertEndian.h
+c1xx : fatal error C1083: 소스 파일을 열 수 없습니다. 'invertEndian.h': No such file or directory
+  코드를 생성하고 있습니다...

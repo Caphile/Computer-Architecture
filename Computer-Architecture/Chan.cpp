@@ -1,6 +1,5 @@
 #include "common/ALU.h"
-//#include "common/big-endian to little-endian.h"
-//#include "common/bitwise, shift op.h"
+#include "common/invertEndian.h"
 #include "common/disassemble.h"
 #include "common/disassembler.h"
 #include "common/instruction fetch and decode.h"
