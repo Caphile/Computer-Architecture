@@ -9,6 +9,9 @@ void main() {
 
     FILE* pFile = nullptr;
 
+    //const char* fileName = "as_ex01_arith.bin";
+    //const char* fileName = "as_ex02_logic.bin";
+    //const char* fileName = "as_ex03_ifelse.bin";
     const char* fileName = "as_ex04_fct.bin";
 
     unsigned int data;
