@@ -24,3 +24,22 @@ void resetREG() {
 	REG(29, 0x80000000, WR);
 	//REG($sp, 0x80000000, WR);
 }
+
+void viewRegister() {
+	printf("\033[0;32m"); 
+	printf("------------------------\n");
+	printf("| register |   value   |\n");
+	printf("|----------------------|\n");
+	printf("| %8s | %9x |\n", "PC", PC);
+	printf("| %8s | %9x |\n", "HI", HI);
+	printf("| %8s | %9x |\n", "LO", LO);
+	printf("|          |           |\n");
+	for (int i = 0; i < REGISTER_SIZE; i++) {
+		// 각각의 레지스터 읽어오기
+		char* name = REGISTER_STR[i];
+		unsigned int value = REG(i, 0, READ);
+		printf("| %8s | %9x |\n", name, value);
+	}
+	printf("------------------------\n");
+	printf("\033[0m");
+}
