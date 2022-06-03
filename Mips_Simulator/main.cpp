@@ -55,6 +55,10 @@ void main() {
 
         }
         else if (cmd == 'j') {
+                printf("target address : ");
+                scanf("%d", &target_address); 
+                PC = target_address;
+            
 
         }
         else if (cmd == 'g') {
