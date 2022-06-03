@@ -94,6 +94,7 @@ void main() {
             printf("value : ");
             scanf("%d",&value);
             REG(register_number,value);
+            viewRegister();
 
         }
         else if (cmd == 'sm') {
