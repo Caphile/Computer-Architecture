@@ -78,7 +78,7 @@ void main() {
             unsigned int m_start=0, m_end = 0;
             printf("<start><end>\n");
             scanf("%u%u",&m_start,&m_end);
-            // ¡¯«‡¡ﬂ
+            // √Å√∏√á√†√Å√ü
         }
         else if (cmd == 'r') {
             viewRegister();
@@ -87,6 +87,13 @@ void main() {
             isEnd = true;
         }
         else if (cmd == 'sr') {
+            unsigned int register_number = 0;
+            unsigned int value = 0;
+            printf("register_number : ");
+            scanf("%d",&register_number);
+            printf("value : ");
+            scanf("%d",&value);
+            REG(register_number,value);
 
         }
         else if (cmd == 'sm') {
