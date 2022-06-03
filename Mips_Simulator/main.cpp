@@ -78,7 +78,7 @@ void main() {
             unsigned int m_start=0, m_end = 0;
             printf("<start><end>\n");
             scanf("%u%u",&m_start,&m_end);
-            // ing
+            // ม๘วเม฿
         }
         else if (cmd == 'r') {
             viewRegister();
