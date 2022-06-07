@@ -19,7 +19,7 @@ unsigned int invertEndian(unsigned int data)
 
 union instructionRegister fetchInstruction() {
 	unsigned int word = MEM(PC, 0, RD, WORD);
-	union instructionRegister instruction = (union instructionRegister)word;
+	union instructionRegister instruction = { word };
 	PC += 4;
 
 	return instruction;
