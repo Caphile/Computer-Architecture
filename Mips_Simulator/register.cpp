@@ -21,8 +21,7 @@ void resetREG() {
 	}
 	HI = 0;
 	LO = 0;
-	REG(29, 0x80000000, WR);
-	//REG($sp, 0x80000000, WR);
+	REG(29, 0x80000000, WR);	// $sp
 }
 
 void viewRegister() {
