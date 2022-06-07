@@ -34,10 +34,10 @@ void viewRegister() {
 	printf("| %8s | %9x |\n", "HI", HI);
 	printf("| %8s | %9x |\n", "LO", LO);
 	printf("|          |           |\n");
-	for (int i = 0; i < REGISTER_SIZE; i++) {
+	for (int i = 0; i < R_SIZE; i++) {
 		// 각각의 레지스터 읽어오기
 		char* name = REGISTER_STR[i];
-		unsigned int value = REG(i, 0, READ);
+		unsigned int value = REG(i, 0, RD);
 		printf("| %8s | %9x |\n", name, value);
 	}
 	printf("------------------------\n");
