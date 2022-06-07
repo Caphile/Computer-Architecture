@@ -5,9 +5,14 @@
 #include "decode.h"
 #include "defines.h"
 
-void main() {
+#define _CRT_SECURE_NO_WARNINGS
 
+int main() {
 
+    unsigned int iCount;	// # of instructions
+    unsigned int dCount;	// # of data
+
+    extern int PC;
 
     int counter = 0;
     extern int IR;
@@ -16,7 +21,7 @@ void main() {
     while (not isEnd) {
         
 
-        scanf_s("%c", &cmd);
+        scanf("%c", &cmd);
         
         if (cmd == 'l') {
                 FILE* pFile = nullptr;
@@ -28,10 +33,8 @@ void main() {
 
                 unsigned int data;
                 unsigned int addr;
-                unsigned int iCount;	// # of instructions
-                unsigned int dCount;	// # of data
-
-                fopen_s(&pFile, fileName, "rb");
+                
+                fopen(&pFile, fileName, "rb");
 
                 // read instruction and data numbers
                 fread(&data, sizeof(data), 1, pFile);
@@ -40,7 +43,7 @@ void main() {
                 dCount = invertEndian(data);
                 printf("Number of Instructions: %d, Number of Data: %d\n", iCount, dCount);
 
-                extern int PC;
+                
                 resetMem();
                 resetREG();
 

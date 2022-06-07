@@ -2,6 +2,7 @@
 #include "register.h"
 #include "memory.h"
 #include "defines.h"
+#include "tools.h"
 
 extern int PC;
 

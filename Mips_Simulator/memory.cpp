@@ -9,9 +9,6 @@
 #define STAK_START	0x7FF00000
 #define STAK_END	0x80000000
 
-enum accessType { RD, WR };
-enum accessSize { BYTE, HALF, WORD };
-
 const int M_SIZE = 0x100000;
 unsigned char progMEM[M_SIZE], dataMEM[M_SIZE], stakMEM[M_SIZE];
 

@@ -3,9 +3,7 @@
 #include "register.h"
 #include "defines.h"
 #include "ALU.h"
-
-enum accessType { RD, WR };
-enum accessSize { BYTE, HALF, WORD };
+#include "tools.h"
 
 extern int PC;
 extern int HI;

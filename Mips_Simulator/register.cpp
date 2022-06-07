@@ -24,6 +24,7 @@ void resetREG() {
 	REG(29, 0x80000000, WR);	// $sp
 }
 
+/*
 void viewRegister() {
 	printf("\033[0;32m"); 
 	printf("------------------------\n");
@@ -42,3 +43,4 @@ void viewRegister() {
 	printf("------------------------\n");
 	printf("\033[0m");
 }
+*/

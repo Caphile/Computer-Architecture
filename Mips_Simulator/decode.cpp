@@ -3,6 +3,7 @@
 #include "register.h"
 #include "instructions.h"
 #include "tools.h"
+#include "defines.h"
 
 unsigned int IR;	// Instruction Register'
 extern int PC;
