@@ -69,12 +69,13 @@ int MEM(unsigned int A, int V, int nRW, int S) {
 }
 
 unsigned int memoryRead(unsigned int addr) {
-	unsigned int data;
+	//unsigned int data;
 
 	if ((addr & 3) != 0) { // check unaligned access?
 		printf("memoryRead(): Unaligned access error!\n");
 		addr &= 0xFFFFFFFC; // make aligned address
 	}
+
 	//invertEndian(data);
 	return MEM(addr, 0, RD, WORD);
 }
