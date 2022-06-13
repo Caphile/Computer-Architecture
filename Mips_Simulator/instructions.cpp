@@ -11,7 +11,7 @@ extern int LO;
 
 extern unsigned int* R;
 
-void INOP() {
+void Inop() {
 	return;
 }
 
