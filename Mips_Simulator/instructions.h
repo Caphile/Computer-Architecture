@@ -1,4 +1,4 @@
-void INOP();
+void Inop();
 
 void Isll(int rd, int rt, int sh);
 void Isrl(int rd, int rt, int sh);
